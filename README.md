@@ -9,3 +9,6 @@ This website shows the profile of "Portrait Touch"'s art and graphics and also g
 - jQuery
 - Parallax.js
 - Bootstrap 4
+
+## Deployment
+This website is now live at (portraittouch.com)[http://www.portraittouch.com].
