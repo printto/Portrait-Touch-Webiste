@@ -1,9 +1,11 @@
+/* Old color #574A33 -> New color #574A33 */
+
 .bg-gold {
   background-color: #C0B283;
 }
 
 .navbar-gold {
-  color: #A09060;
+  color: #574A33;
   font-size: 20px;
   padding: 20px;
   padding-left: 50px;
@@ -21,7 +23,7 @@
 
 .navbar-gold .active {
   font-weight: bold;
-  color: #A09060;
+  color: #574A33;
 }
 
 .bg-silk {
@@ -56,7 +58,7 @@
 }
 
 .main-content {
-  color: #A09060;
+  color: #574A33;
   background-color: rgba(255,255,255,0);
 }
 
@@ -82,11 +84,11 @@
   padding: 30px;
   text-align: center;
   height: 150px;
-  color: #A09060;
+  color: #574A33;
 }
 
 .text-gold {
-  color: #A09060;
+  color: #574A33;
 }
 
 .art-sec {
@@ -129,4 +131,8 @@
     .large-header h1 {
       font-size: 90;
     }
+}
+
+#mobileNav {
+  font-size: 30px;
 }

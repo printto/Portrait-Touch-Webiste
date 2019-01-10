@@ -15,8 +15,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- <link rel="stylesheet" type="text/css" href="default.css"> -->
   <meta property="og:image" content="/img/logo.png">
-  <meta name="description" content="รับวาดภาพเหมือน และรับออกแบบกราฟฟิิค">
-  <meta name="keywords" content="รับ,วาด,ภาพเหมือน,ออกแบบ,กราฟฟิค,กราฟฟิค,กรุงเทพ,พัฒนาการ">
+  <meta name="description" content="รับวาดภาพเหมือน และรับออกแบบกราฟฟิิก">
+  <meta name="keywords" content="รับ,วาด,ภาพเหมือน,ออกแบบ,กราฟฟิก,กราฟฟิก,กรุงเทพ,พัฒนาการ">
   <!-- Custom CSS -->
   <link rel="stylesheet" type="text/css" href="css/default.css">
   <script src="js/default.js"></script>
@@ -28,15 +28,29 @@
 <body>
 
   <!-- Navigation Bar -->
-  <nav class="navbar navbar-expand-lg navbar-gold bg-light">
-    <a class="navbar-brand" href="index.html">Protrait Touch</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon">
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
+  <nav class="navbar navbar-expand-sm navbar-gold bg-light">
+    <a class="navbar-brand d-none d-sm-block" href="index.html">Protrait Touch</a>
+    <div class="d-none d-sm-block" id="navbarNav">
       <ul class="navbar-nav">
         <li class="nav-item">
           <a class="nav-link" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="profile.html">Profile</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="detail.html">Price</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="contact.html">Contact</a>
+        </li>
+      </ul>
+    </div>
+    <div class="d-block d-sm-none" id="mobileNav" style="width: 100%;">
+      <a class="navbar-brand" href="index.html">Protrait Touch</a>
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="profile.html">Profile</a>
@@ -59,10 +73,13 @@
 
     <div class="row" style="margin-top: 60px;">
 
-      <div class="col-lg-5" style="text-align: right;">
+      <div class="col-lg-5 d-none d-lg-block" style="text-align: right;">
         <img src="img/line_id.jpg" />
       </div>
-      <div class="col-lg-7" style="font-size: 30px; padding-top: 30px;">
+      <div class="col-sm-12 d-block d-lg-none" style="text-align: center;">
+        <img src="img/line_id.jpg" />
+      </div>
+      <div class="col-lg-7" style="font-size: 30px; padding-top: 30px; margin-bottom: 50px;">
         <strong>Line ID:</strong> printto
         <br />
         <strong>Tel:</strong> +(66)82-495-5152
@@ -71,6 +88,25 @@
     </div>
 
   </div>
+
+  <!-- <nav class="navbar navbar-expand-sm navbar-gold bg-light d-block d-sm-none">
+    <div id="mobileNav" style="width: 100%;">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="profile.html">Profile</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="detail.html">Price</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="contact.html">Contact us<span class="sr-only">(current)</span></a>
+        </li>
+      </ul>
+    </div>
+  </nav> -->
 
   <!-- Footer -->
   <div class="footer">
