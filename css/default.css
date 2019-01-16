@@ -1,5 +1,51 @@
 /* Old color #574A33 -> New color #574A33 */
 
+* {
+  font-family: "Brush Script MT", cursive;
+  font-style: normal;
+  font-variant: normal;
+  font-size: 30px;
+}
+
+h1 {
+  font-family: "Brush Script MT", cursive;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: bold;
+}
+
+h3 {
+  font-family: "Brush Script MT", cursive;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+p {
+  font-family: "Brush Script MT", cursive;
+  font-style: normal;
+  font-variant: normal;
+}
+
+blockquote {
+  font-family: "Brush Script MT", cursive;
+  font-size: 21px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+pre {
+  font-family: "Brush Script MT", cursive;
+  font-size: 13px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  line-height: 18px;
+}
+
 .bg-gold {
   background-color: #C0B283;
 }
@@ -59,7 +105,7 @@
 
 .main-content {
   color: #574A33;
-  background-color: rgba(255,255,255,0);
+  background-color: rgba(255, 255, 255, 0);
 }
 
 .gallery-img {
@@ -85,6 +131,7 @@
   text-align: center;
   height: 150px;
   color: #574A33;
+  font-size: 20px;
 }
 
 .text-gold {
@@ -101,9 +148,10 @@
 }
 
 .header {
-  text-align: center;
+  text-align: left;
   padding-top: 50px;
   height: 300px;
+  padding-left: 50px;
 }
 
 .header h1 {
@@ -128,11 +176,26 @@
 }
 
 @media (max-width: 479px) {
-    .large-header h1 {
-      font-size: 90;
-    }
+  .large-header h1 {
+    font-size: 90;
+  }
 }
 
 #mobileNav {
   font-size: 30px;
+}
+
+.img-logo {
+  display: block;
+  max-height: 100px;
+  width: auto;
+  height: auto;
+}
+
+.sublogo {
+  max-height: 200px;
+}
+
+.thai-chara {
+  font-size: 20px;
 }
